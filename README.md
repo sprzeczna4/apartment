@@ -1,15 +1,17 @@
-# Wizytówka mieszkania (statyczna strona)
+# Przytulne mieszkanie na Pradze przy Metro Stadion Narodowy
 
-Projekt gotowy do publikacji na **GitHub Pages**.
+Statyczna strona www do publikacji na **GitHub Pages**.
 
-## Szybka personalizacja
-- Nazwa obiektu: **Przytulne mieszkanie na Pradze przy Metro Stadion Narodowy**
-- Telefon: **509 900 370**
-- E‑mail: **lmichon@o2.pl**
+## Co zawiera
+- Strona główna: `index.html`
+- Osobna strona regulaminu: `regulamin.html`
+- Style i skrypty: `styles.css`, `script.js`
+- Zdjęcia: `img/`
 
-Podmień zdjęcia w `images/` na swoje.
+## Deploy na GitHub Pages
+1. Utwórz repo (np. `przytulne-mieszkanie-praga`).
+2. Wgraj zawartość katalogu do repo i zrób commit/push.
+3. **Settings → Pages** → *Deploy from a branch* → `main` → `/root`.
 
-## Publikacja (GitHub Pages)
-1. Utwórz repozytorium na GitHub i wgraj wszystkie pliki z tego folderu.
-2. W **Settings → Pages** wybierz `Deploy from a branch`, gałąź `main` i folder `/ (root)`.
-3. Po chwili strona będzie dostępna pod `https://<twoj-login>.github.io/<nazwa-repozytorium>/`.
+## Mapy
+W sekcji *Lokalizacja* na stronie głównej dostępny jest jeden przycisk „Otwórz mapę” przekierowujący do Google Maps (bez osadzania i bez klucza API).
